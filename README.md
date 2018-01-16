@@ -9,7 +9,7 @@ Source repo for our Salesforce mobile webinar.  To get a copy of the org, click 
 ## Deploy to your own scratch org
 Already using sfdx, and have a dev hub?
 
-```
+```bash
 git clone https://github.com/mshanemc/groceryDemo
 cd groceryDemo
 ./orgInit
