@@ -1,9 +1,12 @@
 # Salesforce mobile dev demo
 
-## Deploy to a scratch org I'll loan you
+## Deploy to one of my scratch orgs (no CLI or sfdx required!)
 Source repo for our Salesforce mobile webinar.  To get a copy of the org, click the button.
 
 [![Deploy](https://raw.githubusercontent.com/mshanemc/deploy-to-sfdx/master/assets/sfdx_it_now.png)](https://hosted-scratch.herokuapp.com/launch?template=https://github.com/mshanemc/groceryDemo)
+
+
+---
 
 
 ## Deploy to your own scratch org
