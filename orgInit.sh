@@ -9,6 +9,7 @@ sfdx force:source:push
 # sfdx force:user:permset:assign -n TrialAdmin
 sfdx force:org:open
 
-sfdx force:data:tree:import -p data/Pickup_Order__c-Pickup_Order_Item__c-plan.json
+sfdx force:data:tree:import -p data/pickupOrderPlan.json
 sfdx force:data:tree:import -f data/Task.json
+sfdx force:data:tree:import -f data/Event.json
 

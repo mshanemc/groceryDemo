@@ -1,0 +1,14 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "ContactRef1"
+            },
+            "FirstName": "Hugh",
+            "LastName": "Minson",
+            "Email": "hminson@salesforce.com",
+            "Phone": "415 555 5893"
+        }
+    ]
+}

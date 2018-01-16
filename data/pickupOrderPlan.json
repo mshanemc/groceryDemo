@@ -1,8 +1,16 @@
 [
     {
-        "sobject": "Pickup_Order__c",
+        "sobject": "Contact",
         "saveRefs": true,
         "resolveRefs": false,
+        "files": [
+            "Contact.json"
+        ]
+    },
+    {
+        "sobject": "Pickup_Order__c",
+        "saveRefs": true,
+        "resolveRefs": true,
         "files": [
             "Pickup_Order__cs.json"
         ]

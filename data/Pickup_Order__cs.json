@@ -5,16 +5,8 @@
                 "type": "Pickup_Order__c",
                 "referenceId": "Pickup_Order__cRef1"
             },
-            "Customer__r": {
-                "attributes": {
-                    "type": "Contact",
-                    "url": "/services/data/v41.0/sobjects/Contact/0033C000005ujhpQAA"
-                },
-                "FirstName": "Hugh",
-                "LastName": "Minson",
-                "Email": "hminson@salesforce.com",
-                "Phone": "415 555 5893"
-            }
+            "Pickup_Time__c": "2018-01-23T23:30:00.000+0000",
+            "Customer__c" : "@ContactRef1"
         }
     ]
 }

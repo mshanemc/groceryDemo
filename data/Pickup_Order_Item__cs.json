@@ -16,9 +16,9 @@
                 "type": "Pickup_Order_Item__c",
                 "referenceId": "Pickup_Order_Item__cRef2"
             },
-            "Name": "Fosters 6 pack, can",
-            "Unit_Cost__c": 8.21,
-            "Quantity__c": 3,
+            "Name": "Milky Valley Organic 2% Milk",
+            "Unit_Cost__c": 2.19,
+            "Quantity__c": 1,
             "Fulfilled__c": true,
             "Pickup_Order__c": "@Pickup_Order__cRef1"
         },
@@ -60,9 +60,9 @@
                 "type": "Pickup_Order_Item__c",
                 "referenceId": "Pickup_Order_Item__cRef6"
             },
-            "Name": "Milky Valley Organic 2% Milk",
-            "Unit_Cost__c": 2.19,
-            "Quantity__c": 1,
+            "Name": "Fosters 6 pack, can",
+            "Unit_Cost__c": 8.21,
+            "Quantity__c": 3,
             "Fulfilled__c": true,
             "Pickup_Order__c": "@Pickup_Order__cRef1"
         }
