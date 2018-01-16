@@ -1,0 +1,24 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Task",
+                "referenceId": "TaskRef1"
+            },
+            "Subject": "remove over-ripe bananas",
+            "ActivityDate": "2018-01-23",
+            "Priority": "Normal",
+            "Status": "Not Started"
+        },
+        {
+            "attributes": {
+                "type": "Task",
+                "referenceId": "TaskRef2"
+            },
+            "Subject": "inventory and restock bulk nut bins as necessary",
+            "ActivityDate": "2018-01-23",
+            "Priority": "Normal",
+            "Status": "Not Started"
+        }
+    ]
+}

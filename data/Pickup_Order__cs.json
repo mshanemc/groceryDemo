@@ -1,0 +1,20 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Pickup_Order__c",
+                "referenceId": "Pickup_Order__cRef1"
+            },
+            "Customer__r": {
+                "attributes": {
+                    "type": "Contact",
+                    "url": "/services/data/v41.0/sobjects/Contact/0033C000005ujhpQAA"
+                },
+                "FirstName": "Hugh",
+                "LastName": "Minson",
+                "Email": "hminson@salesforce.com",
+                "Phone": "415 555 5893"
+            }
+        }
+    ]
+}

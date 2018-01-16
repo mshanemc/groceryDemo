@@ -1,0 +1,18 @@
+[
+    {
+        "sobject": "Pickup_Order__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Pickup_Order__cs.json"
+        ]
+    },
+    {
+        "sobject": "Pickup_Order_Item__c",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "Pickup_Order_Item__cs.json"
+        ]
+    }
+]

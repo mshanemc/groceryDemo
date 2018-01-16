@@ -1,0 +1,11 @@
+{
+    "orgName": "grocery",
+    "edition": "Developer",
+    "orgPreferences" : {
+        "enabled": [
+            "S1DesktopEnabled",
+            "ChatterEnabled",
+            "OfflineDraftsEnabled"
+        ]
+    }
+}
