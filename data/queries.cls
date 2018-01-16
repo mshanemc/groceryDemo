@@ -6,3 +6,6 @@ sfdx force:data:tree:export -q "select Customer__r.firstname, Customer__r.lastna
 
 // tasks
 sfdx force:data:tree:export -q "select subject, ActivityDate, priority, status from task" -d data
+
+// events
+sfdx force:data:tree:export -q "select ActivityDate, ActivityDateTime, Description, EndDateTime, Location, StartDateTime, Subject from Event" -d data

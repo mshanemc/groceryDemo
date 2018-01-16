@@ -1,0 +1,41 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Event",
+                "referenceId": "EventRef1"
+            },
+            "ActivityDate": "2018-01-23",
+            "ActivityDateTime": "2018-01-23T17:30:00.000+0000",
+            "EndDateTime": "2018-01-23T20:30:00.000+0000",
+            "Location": "Produce",
+            "StartDateTime": "2018-01-23T17:30:00.000+0000",
+            "Subject": "Produce Setup"
+        },
+        {
+            "attributes": {
+                "type": "Event",
+                "referenceId": "EventRef2"
+            },
+            "ActivityDate": "2018-01-23",
+            "ActivityDateTime": "2018-01-23T20:30:00.000+0000",
+            "Description": "Distributing our new bacon-wrapped jalapeno poppers",
+            "EndDateTime": "2018-01-24T00:30:00.000+0000",
+            "Location": "Meat",
+            "StartDateTime": "2018-01-23T20:30:00.000+0000",
+            "Subject": "Sample Station"
+        },
+        {
+            "attributes": {
+                "type": "Event",
+                "referenceId": "EventRef3"
+            },
+            "ActivityDate": "2018-01-24",
+            "ActivityDateTime": "2018-01-24T17:30:00.000+0000",
+            "EndDateTime": "2018-01-25T00:30:00.000+0000",
+            "Location": "Produce",
+            "StartDateTime": "2018-01-24T17:30:00.000+0000",
+            "Subject": "Produce Setup"
+        }
+    ]
+}
