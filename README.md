@@ -1,4 +1,4 @@
-# Salesforce mobile dev demo
+# Salesforce mobile low-code demo
 
 ## Deploy to one of my scratch orgs (no CLI or sfdx required!)
 Source repo for our Salesforce mobile webinar.  To get a copy of the org, click the button.
