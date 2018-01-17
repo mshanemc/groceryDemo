@@ -10,7 +10,11 @@ Source repo for our Salesforce mobile webinar.  To get a copy of the org, click 
 
 
 ## Deploy to your own scratch org
-Already using sfdx, and have a dev hub?
+Already using sfdx, and have a dev hub?  Install my plugin, clone, and run the orgInit script.
+
+You'll need [my sfdx plugin](https://github.com/mshanemc/sfdx-msm-plugins) from here: `sfdx plugins:install sfdx-msm-plugins`
+
+then
 
 ```bash
 git clone https://github.com/mshanemc/groceryDemo
