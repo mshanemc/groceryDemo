@@ -1,6 +1,6 @@
 #!/bin/sh
 echo 'Creating a scratch org'
-sfdx force:org:create -s -f config/project-scratch-def.json -d 1
+sfdx force:org:create -s -f config/project-scratch-def.json -d 1 -a mobileWebinar
 
 echo 'Pushing source to the scratch org'
 sfdx force:source:push
@@ -13,8 +13,12 @@ sfdx force:data:tree:import -f data/Event.json
 sfdx msm:user:password:set -g User -l User -p mobile123
 
 echo 'installing some packages in the background'
-sfdx force:package:install -i 04t1a000000VVbFAAW
+# package for task components
+sfdx force:package:install -i 04t1a000000VVbF
+# package for e-signature
 sfdx force:package:install -i 04t24000000kaar
+#utilitypack
+sfdx force:package:install -i 04t28000000b99D
 
 sfdx force:org:open
 

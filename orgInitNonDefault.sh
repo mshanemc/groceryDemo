@@ -14,9 +14,11 @@ sfdx msm:user:password:set -g User -l User -p mobile123 -u grocerySpinoff
 
 echo 'installing some packages in the background'
 # package for task components
-sfdx force:package:install -i 04t1a000000VVbFAAW -u grocerySpinoff
+sfdx force:package:install -i 04t1a000000VVbF -u grocerySpinoff
 # package for e-signature
 sfdx force:package:install -i 04t24000000kaar -u grocerySpinoff
+#utilitypack
+sfdx force:package:install -i 04t28000000b99D -u grocerySpinoff
 
 sfdx force:org:open -u grocerySpinoff
 
