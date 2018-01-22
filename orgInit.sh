@@ -13,8 +13,6 @@ sfdx force:data:tree:import -f data/Event.json
 sfdx msm:user:password:set -g User -l User -p mobile123
 
 echo 'installing some packages in the background'
-# package for task components
-sfdx force:package:install -i 04t1a000000VVbF
 # package for e-signature
 sfdx force:package:install -i 04t24000000kaar
 #utilitypack
