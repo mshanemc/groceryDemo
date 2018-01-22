@@ -17,6 +17,8 @@ echo 'installing some packages in the background'
 sfdx force:package:install -i 04t24000000kaar
 #utilitypack
 sfdx force:package:install -i 04t28000000b99D
+#events
+sfdx force:package:install -i 04t28000000yBl5
 
 sfdx force:org:open
 

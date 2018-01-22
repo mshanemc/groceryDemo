@@ -17,6 +17,8 @@ echo 'installing some packages in the background'
 sfdx force:package:install -i 04t24000000kaar -u grocerySpinoff
 #utilitypack
 sfdx force:package:install -i 04t28000000b99D -u grocerySpinoff
+#events
+sfdx force:package:install -i 04t28000000yBl5 -u grocerySpinoff
 
 sfdx force:org:open -u grocerySpinoff
 

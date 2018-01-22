@@ -84,6 +84,11 @@
         <field>Pickup_Order__c.Total_Items__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.Score__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>grocery</label>
     <objectPermissions>
