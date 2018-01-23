@@ -7,6 +7,7 @@ Source repo for our Salesforce mobile webinar.  To get a copy of the org, click 
 
 
 Once the org opens, be sure to change your email address on your user...there's a good chance when you sign into the mobile app, Salesforce will try to send you a confirmation email.
+
 ---
 
 
