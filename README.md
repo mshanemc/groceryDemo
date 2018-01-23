@@ -6,6 +6,7 @@ Source repo for our Salesforce mobile webinar.  To get a copy of the org, click 
 [![Deploy](https://raw.githubusercontent.com/mshanemc/deploy-to-sfdx/master/assets/sfdx_it_now.png)](https://hosted-scratch.herokuapp.com/launch?template=https://github.com/mshanemc/groceryDemo)
 
 
+Once the org opens, be sure to change your email address on your user...there's a good chance when you sign into the mobile app, Salesforce will try to send you a confirmation email.
 ---
 
 
