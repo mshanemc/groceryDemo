@@ -1,6 +1,6 @@
 #!/bin/sh
 echo 'Creating a scratch org'
-sfdx force:org:create -s -f config/project-scratch-def.json -d 1 -a mobileWebinar
+sfdx msm:org:create -s -f config/project-scratch-def.json -d 1 -a mobileWebinar -u user -o grocery.demo
 
 echo 'Pushing source to the scratch org'
 sfdx force:source:push
