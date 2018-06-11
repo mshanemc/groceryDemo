@@ -14,11 +14,11 @@ sfdx msm:user:password:set -g User -l User -p mobile123
 
 echo 'installing some packages in the background'
 # package for e-signature
-sfdx force:package:install -i 04t24000000kaar
+sfdx force:package:install --package 04t24000000kaar
 #utilitypack
-sfdx force:package:install -i 04t0I000000Xa0Y
+sfdx force:package:install --package 04t0I000000Xa0Y
 #events
-sfdx force:package:install -i 04t28000000yBl5
+sfdx force:package:install --package 04t28000000yBl5
 
 sfdx force:org:open
 
