@@ -1,8 +1,5 @@
-#!/bin/sh
-echo 'Creating a scratch org'
 sfdx shane:org:create -s -f config/project-scratch-def.json -d 1 --userprefix user -o grocery.demo
 
-echo 'Pushing source to the scratch org'
 sfdx force:source:push
 
 sfdx force:user:permset:assign -n grocery
@@ -12,7 +9,6 @@ sfdx force:data:tree:import -f data/Task.json
 sfdx force:data:tree:import -f data/Event.json
 sfdx shane:user:password:set -g User -l User -p mobile123
 
-echo 'installing some packages in the background'
 # package for e-signature
 sfdx force:package:install --package 04t24000000kaar
 #utilitypack
