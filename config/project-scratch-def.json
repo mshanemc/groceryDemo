@@ -5,7 +5,8 @@
         "orgPreferenceSettings": {
             "s1DesktopEnabled": true,
             "chatterEnabled": true,
-            "offlineDraftsEnabled": true
+            "offlineDraftsEnabled": true,
+            "selfSetPasswordInApi": true
         }
     }
 }
